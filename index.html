@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Project Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f5f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #173b65;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        nav {
+            background-color: #102b49;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 22px;
+            max-width: 900px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #173b65;
+            border-bottom: 2px solid #dce6f1;
+            padding-bottom: 6px;
+        }
+
+        h3 {
+            color: #286090;
+        }
+
+        .highlight {
+            background-color: #e2efff;
+            padding: 15px;
+            border-left: 4px solid #286090;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .card {
+            background-color: #f0f5fa;
+            padding: 15px;
+            border-radius: 6px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .gallery figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        .gallery figcaption {
+            padding: 8px;
+        }
+
+        footer {
+            background-color: #102b49;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        @media (max-width: 600px) {
+            .features, .gallery {
+                grid-template-columns: 1fr;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                font-size: 10pt;
+            }
+
+            nav {
+                position: static;
+            }
+
+            section {
+                margin: 10px auto;
+                padding: 15px;
+                box-shadow: none;
+            }
+
+            a {
+                color: inherit;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Project Website</h1>
+        <p>Learning, Creativity and Innovation</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#objectives">Objectives</a>
+        <a href="#features">Features</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#conclusion">Conclusion</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Our Project</h2>
+
+        <p>
+            Welcome to our student project website. This website presents
+            our ideas, objectives and project information in a simple and
+            organized manner. It demonstrates how technology can help
+            students communicate ideas and develop useful solutions.
+        </p>
+
+        <div class="highlight">
+            <strong>Our Vision:</strong>
+            To use knowledge, creativity and technology to solve
+            real-world problems and create positive changes in society.
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>1. About the Project</h2>
+
+        <p>
+            The purpose of this project is to apply the concepts learned
+            in academics to practical situations. Project-based learning
+            allows students to explore problems, identify possible
+            solutions and understand how technology works in real life.
+        </p>
+
+        <p>
+            Websites are an important part of modern communication.
+            They provide information to users through computers,
+            tablets and mobile phones. HTML is used to create the
+            structure of a webpage, while CSS improves its appearance,
+            colors, spacing and layout.
+        </p>
+
+        <p>
+            This website contains different sections that organize
+            information clearly. The design focuses on readability,
+            simplicity and easy navigation so that visitors can find
+            the information they need without difficulty.
+        </p>
+    </section>
+
+    <section id="objectives">
+        <h2>2. Project Objectives</h2>
+
+        <ul>
+            <li>Understand the basic structure of HTML documents.</li>
+            <li>Learn how CSS styles and designs a webpage.</li>
+            <li>Create a simple and user-friendly website.</li>
+            <li>Organize information into meaningful sections.</li>
+            <li>Improve problem-solving and creative thinking skills.</li>
+            <li>Understand how to publish websites using GitHub Pages.</li>
+        </ul>
+
+        <h3>Expected Outcomes</h3>
+
+        <p>
+            By completing this project, students can gain practical
+            experience in web development. They learn how to combine
+            different HTML elements, apply styling rules and create a
+            website that can be viewed through a web browser.
+        </p>
+    </section>
+
+    <section id="features">
+        <h2>3. Main Features</h2>
+
+        <div class="features">
+            <div class="card">
+                <h3>Simple Design</h3>
+                <p>
+                    A clean layout helps visitors read information
+                    comfortably and understand the project.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Easy Navigation</h3>
+                <p>
+                    Navigation links allow users to move directly
+                    to different sections of the webpage.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Responsive Layout</h3>
+                <p>
+                    CSS media queries help the website adjust
+                    its layout for smaller mobile screens.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Online Publishing</h3>
+                <p>
+                    GitHub Pages can host the website and provide
+                    a public link that others can visit.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>4. Project Gallery</h2>
+
+        <p>
+            The gallery displays sample photographs related to
+            learning, teamwork and technology. These images can
+            later be replaced with photographs of the actual project.
+        </p>
+
+        <div class="gallery">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80"
+                     alt="Students working on a computer">
+                <figcaption>Technology and Learning</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=600&q=80"
+                     alt="People collaborating as a team">
+                <figcaption>Teamwork and Collaboration</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="conclusion">
+        <h2>5. Conclusion</h2>
+
+        <p>
+            This project provides an opportunity to understand the
+            fundamentals of web development and practical problem-solving.
+            It combines HTML for structure with CSS for visual design
+            to create an organized and attractive website.
+        </p>
+
+        <p>
+            In the future, additional features such as interactive forms,
+            project-specific information and more photographs can be
+            included. Overall, the project demonstrates how basic
+            programming knowledge can be used to create and publish
+            a useful website.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Student Project Website</p>
+        <p>Designed for learning and innovation.</p>
+    </footer>
+
+</body>
+</html>
